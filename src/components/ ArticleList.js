@@ -1,6 +1,6 @@
 // src/components/ArticleList.js
+import react from "react"
 import Article from "./Article";
-
 function ArticleList({ posts }) {
   return (
     <main>
