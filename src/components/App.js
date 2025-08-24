@@ -5,7 +5,7 @@ import About from "./About.js"
 import ArticleList from "./ ArticleList.js";
 function App() {
   return (
-    <div>
+    <div className = "App">
       <Header name={blogData.name} />
       <About image={blogData.image} about={blogData.about} />
       <ArticleList posts={blogData.posts} />
